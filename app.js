@@ -1,12 +1,10 @@
-//constant variable temp kelvin
-const kelvin = 293;
-//constant variable temp celsius
-const celsius = kelvin - 273;
-//const variable calculate fahrenheit temp y Math.floor to round decimals
-const fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+/*
+    Did you know that giraffes sleep 4.6 hours a day? We humans need more than that. If we don’t sleep enough, we 
+    accumulate sleep debt. In this project we’ll calculate if you’re getting enough sleep each week using a 
+    sleep debt calculator.
 
-console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+    The program will determine the actual and ideal hours of sleep for each night of the last week.
 
-//const variable calculate newton temp y Math.floor to round decimals
-const newton  = Math.floor(celsius * (33 / 100));
-console.log(`The temperature is ${newton} degrees Newton.`);
+    Finally, it will calculate, in hours, how far you are from your weekly sleep goal.
+*/
+
